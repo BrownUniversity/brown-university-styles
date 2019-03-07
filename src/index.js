@@ -1,0 +1,4 @@
+import "./styles.css";
+
+export { default as colors } from "./colors";
+export { default as typography } from "./typography";

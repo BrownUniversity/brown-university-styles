@@ -1,0 +1,256 @@
+/*! brown-university-styles v0.1.0 */
+@charset "UTF-8";
+
+/* ---- fonts ---- */
+@font-face {
+  font-family: "Bitstream Vera Sans Mono";
+  font-style: normal;
+  src: url(bitstream-vera-sans-mono.3276a5efeb99130cfca212bc354be36d.woff) format("woff");
+}
+
+@font-face {
+  font-family: brown-icons;
+  font-style: normal;
+  src: url(brown-icons.7b3e919f5400cd97733af21735ca5f8a.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Bold";
+  font-style: normal;
+  src: url(circular-bold.926416f00d9c1431f52d424135e15ead.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Bold";
+  font-style: italic;
+  src: url(circular-bolditalic.0c2a5e57f1e42ec288d0a398bb48323f.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Book";
+  font-style: normal;
+  src: url(circular-book.2ac8bef002d92b00dd2c9efa1b9b28dc.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Book";
+  font-style: italic;
+  src: url(circular-bookitalic.96286d950720539a92c9805b48ee469c.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Medium";
+  font-style: normal;
+  src: url(circular-medium.5b4d06887f372350cc39fa4269024a5f.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Medium";
+  font-style: italic;
+  src: url(circular-mediumitalic.82a2a90b2e26b7e50296f3a24735c710.woff) format("woff");
+}
+
+@font-face {
+  font-family: minion-pro;
+  font-style: normal;
+  src: url(minion-pro.882822c68b3e5ff52e06a5fcdbe3fa8e.woff) format("woff");
+}
+
+.sans {
+  font-family: Circular-Book, Arial, Helvetica, sans-serif !important;
+}
+
+.sans-bold {
+  font-family: Circular-Bold, Circular-Book, Arial, Helvetica, sans-serif !important;
+}
+
+.serif {
+  font-family: minion-pro, "Times New Roman", serif !important;
+}
+
+.mono {
+  font-family: "Bitstream Vera Sans Mono", Menlo, Monaco, Consolas, Courier,
+    monospace !important;
+}
+
+/* ---- layout ---- */
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 0;
+  width: 96%;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 92%;
+  }
+}
+
+/* ---- text-colors ---- */
+.text-black {
+  color: #3b302c;
+}
+
+.text-brown {
+  color: #4e3629;
+}
+
+.text-red {
+  color: #c00404;
+}
+
+.text-yellow {
+  color: #ffc72c;
+}
+
+.text-gray {
+  color: #98a4ae;
+}
+
+.text-beige {
+  color: #efece5;
+}
+
+.text-sand {
+  color: #ccc6b8;
+}
+
+.text-light-brown {
+  color: #a79a94;
+}
+
+.text-medium-brown {
+  color: #745d54;
+}
+
+.text-brown-dark {
+  color: #3a1e1a;
+}
+
+.text-skyblue {
+  color: #59cbe8;
+}
+
+.text-emerald {
+  color: #00b398;
+}
+
+.text-navy {
+  color: #003c71;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+/* ---- background colors ---- */
+.bg-black {
+  background-color: #3b302c;
+}
+
+.bg-brown {
+  background-color: #4e3629;
+}
+
+.bg-red {
+  background-color: #c00404;
+}
+
+.bg-yellow {
+  background-color: #ffc72c;
+}
+
+.bg-gray {
+  background-color: #98a4ae;
+}
+
+.bg-beige {
+  background-color: #efece5;
+}
+
+.bg-sand {
+  background-color: #ccc6b8;
+}
+
+.bg-light-brown {
+  background-color: #a79a94;
+}
+
+.bg-medium-brown {
+  background-color: #745d54;
+}
+
+.bg-brown-dark {
+  background-color: #3a1e1a;
+}
+
+.bg-skyblue {
+  background-color: #59cbe8;
+}
+
+.bg-emerald {
+  background-color: #00b398;
+}
+
+.bg-navy {
+  background-color: #003c71;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+/* ---- headings ---- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: Circular-Bold, Circular-Book, Arial, Helvetica, sans-serif;
+}
+
+h1,
+.h1 {
+  font-size: 2.5rem;
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.75rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+/* ---- paragraphs ---- */
+p {
+  font-family: minion-pro, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.75;
+}
+

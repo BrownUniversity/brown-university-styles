@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+/* ---- fonts ---- */
+@font-face {
+  font-family: "Bitstream Vera Sans Mono";
+  font-style: normal;
+  src: url("./fonts/bitstream-vera-sans-mono.woff") format("woff");
+}
+
+@font-face {
+  font-family: brown-icons;
+  font-style: normal;
+  src: url("./fonts/brown-icons.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Bold";
+  font-style: normal;
+  src: url("./fonts/circular-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Bold";
+  font-style: italic;
+  src: url("./fonts/circular-bolditalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Book";
+  font-style: normal;
+  src: url("./fonts/circular-book.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Book";
+  font-style: italic;
+  src: url("./fonts/circular-bookitalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Medium";
+  font-style: normal;
+  src: url("./fonts/circular-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Circular-Medium";
+  font-style: italic;
+  src: url("./fonts/circular-mediumitalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: minion-pro;
+  font-style: normal;
+  src: url("./fonts/minion-pro.woff") format("woff");
+}
+
+.sans {
+  font-family: Circular-Book, Arial, Helvetica, sans-serif !important;
+}
+
+.sans-bold {
+  font-family: Circular-Bold, Circular-Book, Arial, Helvetica, sans-serif !important;
+}
+
+.serif {
+  font-family: minion-pro, "Times New Roman", serif !important;
+}
+
+.mono {
+  font-family: "Bitstream Vera Sans Mono", Menlo, Monaco, Consolas, Courier,
+    monospace !important;
+}
+
+/* ---- layout ---- */
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 0;
+  width: 96%;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 92%;
+  }
+}
+
+/* ---- text-colors ---- */
+.text-black {
+  color: #3b302c;
+}
+
+.text-brown {
+  color: #4e3629;
+}
+
+.text-red {
+  color: #c00404;
+}
+
+.text-yellow {
+  color: #ffc72c;
+}
+
+.text-gray {
+  color: #98a4ae;
+}
+
+.text-beige {
+  color: #efece5;
+}
+
+.text-sand {
+  color: #ccc6b8;
+}
+
+.text-light-brown {
+  color: #a79a94;
+}
+
+.text-medium-brown {
+  color: #745d54;
+}
+
+.text-brown-dark {
+  color: #3a1e1a;
+}
+
+.text-skyblue {
+  color: #59cbe8;
+}
+
+.text-emerald {
+  color: #00b398;
+}
+
+.text-navy {
+  color: #003c71;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+/* ---- background colors ---- */
+.bg-black {
+  background-color: #3b302c;
+}
+
+.bg-brown {
+  background-color: #4e3629;
+}
+
+.bg-red {
+  background-color: #c00404;
+}
+
+.bg-yellow {
+  background-color: #ffc72c;
+}
+
+.bg-gray {
+  background-color: #98a4ae;
+}
+
+.bg-beige {
+  background-color: #efece5;
+}
+
+.bg-sand {
+  background-color: #ccc6b8;
+}
+
+.bg-light-brown {
+  background-color: #a79a94;
+}
+
+.bg-medium-brown {
+  background-color: #745d54;
+}
+
+.bg-brown-dark {
+  background-color: #3a1e1a;
+}
+
+.bg-skyblue {
+  background-color: #59cbe8;
+}
+
+.bg-emerald {
+  background-color: #00b398;
+}
+
+.bg-navy {
+  background-color: #003c71;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+/* ---- headings ---- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: Circular-Bold, Circular-Book, Arial, Helvetica, sans-serif;
+}
+
+h1,
+.h1 {
+  font-size: 2.5rem;
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.75rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+/* ---- paragraphs ---- */
+p {
+  font-family: minion-pro, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.75;
+}
