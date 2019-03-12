@@ -1,11 +1,11 @@
 {
   "name": "brown-university-styles",
-  "description": "Typography, colors and other styles for building React-based applications at Brown University.",
+  "description": "Colors, typography and other styles for building React-based applications at Brown University.",
   "author": "Colin Cummings <colin_cummings@brown.edu>",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "homepage": "https://bitbucket.brown.edu/projects/REACT/repos/brown-university-styles",
-  "main": "dist/brown-university-styles.js",
+  "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src",
     "prettier": "prettier \"{src,__{tests,mocks}__}/**/*.+(js|json|css)\"",

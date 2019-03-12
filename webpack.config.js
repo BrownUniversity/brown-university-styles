@@ -8,7 +8,7 @@ module.exports = {
   mode: "none",
   entry: path.join(__dirname, "./src/index.js"),
   output: {
-    filename: "brown-university-styles.js",
+    filename: "index.js",
     path: path.resolve(__dirname, "./dist"),
     libraryTarget: "umd"
   },
