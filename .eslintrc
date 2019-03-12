@@ -1,1 +1,7 @@
-{ "extends": ["brown", "brown/prettier"] }
+{
+  "extends": ["brown", "brown/prettier"],
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "react/prop-types": "off"
+  }
+}

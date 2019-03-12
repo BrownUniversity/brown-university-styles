@@ -13,7 +13,8 @@
     "format:fix": "npm run prettier -- --write",
     "validate": "npm-run-all lint format:check",
     "prebuild": "rimraf dist && npm run validate",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "start-storybook -p 8080"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
@@ -28,6 +29,10 @@
     "prettier": "^1.16.4",
     "rimraf": "^2.6.3",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "@storybook/react": "^5.0.1",
+    "@storybook/addon-actions": "^5.0.1",
+    "@storybook/addon-links": "^5.0.1",
+    "@storybook/addons": "^5.0.1"
   }
 }
