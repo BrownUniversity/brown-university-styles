@@ -31,7 +31,7 @@ export default {
   /*
     brown university theme
   */
-  lightBeige: "#EFECE5", // renamed from "beige" to resolve naming conflict with brown university visual identity
+  lightBeige: "#EFECE5", // renamed from "beige" to resolve naming conflict with fastspot visual styles
   sand: "#CCC6B8",
   lightBrown: "#A79A94",
   mediumBrown: "#745D54",
