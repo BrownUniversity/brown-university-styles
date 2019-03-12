@@ -32,3 +32,17 @@ _On-prem Bitbucket doesn't render markdown very nicely; view this in a markdown 
    ```
 
    _This only needs to be done once. Remember to configure Webpack to load `.css` and `.woff` files._
+
+## Development
+
+Install dependencies:
+
+```sh
+npm install
+```
+
+Run examples at [http://localhost:8080](http://localhost:8080/) with [storybook](https://storybook.js.org/):
+
+```sh
+npm start
+```
