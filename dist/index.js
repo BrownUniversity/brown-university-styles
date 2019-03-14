@@ -1,4 +1,4 @@
-/*! brown-university-styles v0.2.0 */
+/*! brown-university-styles v0.3.0 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -103,11 +103,21 @@ return /******/ (function(modules) { // webpackBootstrap
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _colors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "colors", function() { return _colors__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "baseFontSizePx", function() { return _constants__WEBPACK_IMPORTED_MODULE_1__["baseFontSizePx"]; });
 
-/* harmony import */ var _typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "typography", function() { return _typography__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "breakpoints", function() { return _constants__WEBPACK_IMPORTED_MODULE_1__["breakpoints"]; });
+
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "getRems", function() { return _utils__WEBPACK_IMPORTED_MODULE_2__["getRems"]; });
+
+/* harmony import */ var _colors__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "colors", function() { return _colors__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+
+/* harmony import */ var _typography__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "typography", function() { return _typography__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+
 
 
 
@@ -121,6 +131,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "baseFontSizePx", function() { return baseFontSizePx; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "breakpoints", function() { return breakpoints; });
+var baseFontSizePx = 16;
+var breakpoints = {
+  sm: 576,
+  md: 768,
+  lg: 992,
+  xl: 1200
+};
+
+/***/ }),
+/* 3 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getRems", function() { return getRems; });
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+/* eslint-disable import/prefer-default-export */
+
+function getRems(px) {
+  return "".concat(px / _constants__WEBPACK_IMPORTED_MODULE_0__["baseFontSizePx"], "rem");
+}
+
+/***/ }),
+/* 4 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -182,7 +222,7 @@ var taupe = "#B7B09C";
 });
 
 /***/ }),
-/* 3 */
+/* 5 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
