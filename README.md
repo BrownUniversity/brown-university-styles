@@ -36,6 +36,14 @@ _This only needs to be done once (via CSS or JavaScript). Remember to configure 
 
 ---
 
+## Documentation
+
+See [http://docs.webservices.brown.edu/styles](http://docs.webservices.brown.edu/styles).
+
+_Ensure you're on the network and that `10.55.29.58 docs.webservices.brown.edu` has been added to your hosts file._
+
+---
+
 ## Development
 
 Install dependencies:
