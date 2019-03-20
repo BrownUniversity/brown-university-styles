@@ -7,8 +7,8 @@
   "homepage": "https://bitbucket.brown.edu/projects/REACT/repos/brown-university-styles",
   "main": "dist/index.js",
   "scripts": {
-    "lint": "eslint src",
-    "prettier": "prettier \"{src,__{tests,mocks}__}/**/*.+(js|json|css)\"",
+    "lint": "eslint src stories",
+    "prettier": "prettier \"{src,stories,__{tests,mocks}__}/**/*.+(js|json|css)\"",
     "format:check": "npm run prettier -- --list-different",
     "format:fix": "npm run prettier -- --write",
     "validate": "npm-run-all lint format:check",
