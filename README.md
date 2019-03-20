@@ -1,6 +1,6 @@
 # Brown University Styles
 
-Colors, typography and other styles for building React-based applications at Brown University.
+Colors, typography and other style utilities for building React-based applications at Brown University.
 
 ---
 

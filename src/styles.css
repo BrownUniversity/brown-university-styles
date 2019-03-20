@@ -72,20 +72,6 @@
     monospace !important;
 }
 
-/* ---- layout ---- */
-.container {
-  margin: 0 auto;
-  max-width: 1300px;
-  padding: 0;
-  width: 96%;
-}
-
-@media only screen and (max-width: 768px) {
-  .container {
-    width: 92%;
-  }
-}
-
 /* ---- headings ---- */
 h1,
 h2,

@@ -1,15 +1,7 @@
 import React from "react";
 import copy from "copy-to-clipboard";
 import { colors } from "../../src";
-
-const unstyledButtonStyles = {
-  backgroundColor: "inherit",
-  border: "none",
-  cursor: "pointer",
-  fontSize: "inherit",
-  fontWeight: "inherit",
-  padding: 0
-};
+import { unstyledButtonStyles } from "../styles";
 
 const ThemeName = ({ name, link }) => (
   <h2>
