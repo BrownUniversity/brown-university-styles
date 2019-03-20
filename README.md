@@ -36,6 +36,12 @@ _This only needs to be done once (via CSS or JavaScript). Remember to configure 
 
 ---
 
+## Documentation
+
+[View on VPN](https://design.cis.brown.edu/brown-university-styles/)
+
+---
+
 ## Development
 
 Install dependencies:
