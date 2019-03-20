@@ -80,9 +80,9 @@ const Color = ({ name, note }) => (
   </div>
 );
 
-const ColorPalleteStory = () => (
+const ColorPaletteStory = () => (
   <div style={{ padding: "0 15px 30px 15px" }}>
-    <h1 style={{ marginBottom: 0 }}>Color Pallete</h1>
+    <h1 style={{ marginBottom: 0 }}>Color Palette</h1>
     <p
       style={{
         color: colors.gray,
@@ -149,4 +149,4 @@ const ColorPalleteStory = () => (
   </div>
 );
 
-export default ColorPalleteStory;
+export default ColorPaletteStory;

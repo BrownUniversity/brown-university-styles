@@ -1,5 +1,5 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-import ColorPalleteStory from "./components/ColorPalleteStory";
+import ColorPaletteStory from "./components/ColorPaletteStory";
 
-storiesOf("colors", module).add("color palette", () => <ColorPalleteStory />);
+storiesOf("colors", module).add("color palette", () => <ColorPaletteStory />);
