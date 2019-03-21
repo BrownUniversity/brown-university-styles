@@ -1,6 +1,6 @@
 # Brown University Styles
 
-Colors, typography and other styles for building React-based applications at Brown University.
+Colors, typography and other style utilities for building React-based applications at Brown University.
 
 ---
 
@@ -33,6 +33,12 @@ import "brown-university-styles/dist/styles.css";
 ```
 
 _This only needs to be done once (via CSS or JavaScript). Remember to configure Webpack to load `.css` and `.woff` files._
+
+---
+
+## Documentation
+
+[View on VPN](https://design.cis.brown.edu/brown-university-styles/)
 
 ---
 

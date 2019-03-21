@@ -1,5 +1,7 @@
 import React from "react";
-import { colors } from "../src";
+import copy from "copy-to-clipboard";
+import { colors } from "../../src";
+import { unstyledButtonStyles } from "../styles";
 
 const ThemeName = ({ name, link }) => (
   <h2>
@@ -24,8 +26,17 @@ const ThemeName = ({ name, link }) => (
 const ThemeGroup = ({ name }) => <h3 style={{ margin: "10px 0" }}>{name}</h3>;
 
 const ColorName = ({ name, note }) => (
-  <h4 style={{ margin: "5px 0" }}>
-    {name}{" "}
+  <h4 style={{ margin: "10px 0 5px 0" }}>
+    <button
+      type="button"
+      title={`Copy ${name} to clipboard`}
+      onClick={() => copy(name)}
+      style={{
+        ...unstyledButtonStyles
+      }}
+    >
+      {name}
+    </button>{" "}
     {note && (
       <span
         style={{
@@ -40,12 +51,27 @@ const ColorName = ({ name, note }) => (
   </h4>
 );
 
-const ColorBlock = ({ name }) => (
-  <>
-    <div style={{ background: colors[name], height: "50px", width: "200px" }} />
-    <p style={{ color: colors.gray, marginTop: 0 }}>{colors[name]}</p>
-  </>
-);
+const ColorBlock = ({ name }) => {
+  const value = colors[name];
+
+  return (
+    <>
+      <div style={{ background: value, height: "50px", width: "200px" }} />
+      <button
+        type="button"
+        title={`Copy ${value} to clipboard`}
+        onClick={() => copy(value)}
+        style={{
+          color: colors.gray,
+          margin: "5px 0",
+          ...unstyledButtonStyles
+        }}
+      >
+        {value}
+      </button>
+    </>
+  );
+};
 
 const Color = ({ name, note }) => (
   <div style={{ display: "inline-block", marginRight: 25 }}>
@@ -54,9 +80,18 @@ const Color = ({ name, note }) => (
   </div>
 );
 
-const ColorsStory = () => (
+const ColorPaletteStory = () => (
   <div style={{ padding: "0 15px 30px 15px" }}>
-    <h1>Colors</h1>
+    <h1 style={{ marginBottom: 0 }}>Color Palette</h1>
+    <p
+      style={{
+        color: colors.gray,
+        fontStyle: "italic",
+        marginTop: 0
+      }}
+    >
+      Click a name or a value to copy it to your clipboard.
+    </p>
     <hr />
     <ThemeName
       name="Brown University Visual Identity"
@@ -114,4 +149,4 @@ const ColorsStory = () => (
   </div>
 );
 
-export default ColorsStory;
+export default ColorPaletteStory;

@@ -1,7 +1,21 @@
-import { configure } from '@storybook/react';
+import { addParameters, configure } from "@storybook/react";
+import { version } from "../package.json";
 
-// automatically import all files ending in *.stories.js
-const req = require.context('../stories', true, /.stories.js$/);
+/*
+  customize name and disable addons panel
+*/
+addParameters({
+  options: {
+    name: `Brown University Styles ${version}`,
+    showAddonPanel: false
+  }
+});
+
+/*
+  automatically import all files ending in `*.stories.js` from `stories` directory
+*/
+const req = require.context("../stories", true, /.stories.js$/);
+
 function loadStories() {
   req.keys().forEach(filename => req(filename));
 }
