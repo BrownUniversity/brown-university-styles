@@ -1,4 +1,4 @@
-/*! brown-university-styles v0.3.1 */
+/*! brown-university-styles v0.3.2 */
 @charset "UTF-8";
 
 /* ---- fonts ---- */
@@ -71,20 +71,6 @@
 .mono {
   font-family: "Bitstream Vera Sans Mono", Menlo, Monaco, Consolas, Courier,
     monospace !important;
-}
-
-/* ---- layout ---- */
-.container {
-  margin: 0 auto;
-  max-width: 1300px;
-  padding: 0;
-  width: 96%;
-}
-
-@media only screen and (max-width: 768px) {
-  .container {
-    width: 92%;
-  }
 }
 
 /* ---- headings ---- */
