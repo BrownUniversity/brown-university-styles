@@ -6,8 +6,7 @@ import { version } from "../package.json";
 */
 addParameters({
   options: {
-    name: `Brown University Styles ${version}`,
-    showAddonPanel: false
+    name: `Brown University Styles ${version}`
   }
 });
 
