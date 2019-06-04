@@ -82,7 +82,7 @@ const Color = ({ name, note }) => (
 
 const ColorPaletteStory = () => (
   <div style={{ padding: "0 15px 30px 15px" }}>
-    <h1 style={{ marginBottom: 0 }}>Color Palette</h1>
+    <h1 style={{ marginBottom: 5 }}>Color Palette</h1>
     <p
       style={{
         color: colors.gray,
