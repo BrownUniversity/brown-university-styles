@@ -3,7 +3,7 @@ import { colors } from "../../src";
 
 const HeadingsStory = () => (
   <div style={{ padding: "0 15px 30px 15px" }}>
-    <h1 style={{ marginBottom: 0 }}>Headings</h1>
+    <h1 style={{ marginBottom: 5 }}>Headings</h1>
     <p
       style={{
         color: colors.gray,
