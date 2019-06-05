@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/* ---- fonts ---- */
 @font-face {
   font-family: "Bitstream Vera Sans Mono";
   font-style: normal;
@@ -55,40 +54,21 @@
   src: url("./fonts/minion-pro.woff") format("woff");
 }
 
-.sans {
-  font-family: Circular-Book, Arial, Helvetica, sans-serif !important;
-}
-
-.sans-bold {
-  font-family: Circular-Bold, Circular-Book, Arial, Helvetica, sans-serif !important;
-}
-
-.serif {
-  font-family: minion-pro, "Times New Roman", serif !important;
-}
-
-.mono {
-  font-family: "Bitstream Vera Sans Mono", Menlo, Monaco, Consolas, Courier,
-    monospace !important;
-}
-
-/* ---- headings ---- */
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h6 {
   font-family: Circular-Bold, Circular-Book, Arial, Helvetica, sans-serif;
 }
 
-/* ---- paragraphs ---- */
-p {
+p,
+a {
   font-family: minion-pro, "Times New Roman", serif;
+}
+
+code {
+  font-family: "Bitstream Vera Sans Mono", Menlo, Monaco, Consolas, Courier,
+    monospace;
 }
