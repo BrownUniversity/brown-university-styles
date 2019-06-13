@@ -1,4 +1,4 @@
-/*! brown-university-styles v0.5.0 */
+/*! brown-university-styles v0.6.0 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -169,7 +169,10 @@ var idRed = "#ED1C24";
 var webRed = "#C00404";
 var gold = "#FFC72C";
 var gray = "#98A4AE";
+var emerald = "#00B398";
 var taupe = "#B7B09C";
+var bearBrown = "#8b572a";
+var lightGold = "#fef1cd";
 /* harmony default export */ __webpack_exports__["default"] = ({
   /*
     brown university visual identity
@@ -181,7 +184,7 @@ var taupe = "#B7B09C";
   gray: gray,
   // secondary
   skyBlue: "#59CBE8",
-  emerald: "#00B398",
+  emerald: emerald,
   navy: "#003C71",
   taupe: taupe,
 
@@ -208,17 +211,33 @@ var taupe = "#B7B09C";
     other themes
   */
   // used by athletics
-  bearBrown: "#8b572a",
+  bearBrown: bearBrown,
+
+  /*
+    accent
+  */
+  lightGold: lightGold,
 
   /*
     grayscale
   */
   white: "#FFFFFF",
+  backgroundGray: "#f7f7f7",
   lightGray: "#F0F3F5",
   mediumGray: "#687078",
   darkGray: "#3C3C3C",
+  black: "#000000",
   transparentBlack: "rgba(0, 0, 0, 0.15)",
-  black: "#000000"
+
+  /*
+    notifications
+  */
+  successBackground: "#e0f4f1",
+  successForeground: emerald,
+  errorBackground: "#ebd9db",
+  errorForeground: "#d0021b",
+  warningBackground: lightGold,
+  warningForeground: bearBrown
 });
 
 /***/ }),
