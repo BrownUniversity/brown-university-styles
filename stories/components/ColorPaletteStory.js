@@ -138,14 +138,26 @@ const ColorPaletteStory = () => (
     <ThemeName name="Other Themes" />
     <Color name="bearBrown" />
     <hr />
+    <ThemeName name="Accent" />
+    <Color name="lightGold" />
+    <hr />
     <ThemeName name="Grayscale" />
     <Color name="white" />
+    <Color name="backgroundGray" />
     <Color name="lightGray" />
     <Color name="gray" />
     <Color name="mediumGray" />
     <Color name="darkGray" />
     <Color name="black" />
     <Color name="transparentBlack" />
+    <hr />
+    <ThemeName name="Notifications" />
+    <Color name="successBackground" />
+    <Color name="successForeground" note="emerald" />
+    <Color name="errorBackground" />
+    <Color name="errorForeground" />
+    <Color name="warningBackground" note="lightGold" />
+    <Color name="warningForeground" note="bearBrown" />
   </div>
 );
 

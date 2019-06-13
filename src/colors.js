@@ -2,7 +2,10 @@ const idRed = "#ED1C24";
 const webRed = "#C00404";
 const gold = "#FFC72C";
 const gray = "#98A4AE";
+const emerald = "#00B398";
 const taupe = "#B7B09C";
+const bearBrown = "#8b572a";
+const lightGold = "#fef1cd";
 
 export default {
   /*
@@ -15,7 +18,7 @@ export default {
   gray,
   // secondary
   skyBlue: "#59CBE8",
-  emerald: "#00B398",
+  emerald,
   navy: "#003C71",
   taupe,
 
@@ -40,15 +43,31 @@ export default {
     other themes
   */
   // used by athletics
-  bearBrown: "#8b572a",
+  bearBrown,
+
+  /*
+    accent
+  */
+  lightGold,
 
   /*
     grayscale
   */
   white: "#FFFFFF",
+  backgroundGray: "#f7f7f7",
   lightGray: "#F0F3F5",
   mediumGray: "#687078",
   darkGray: "#3C3C3C",
+  black: "#000000",
   transparentBlack: "rgba(0, 0, 0, 0.15)",
-  black: "#000000"
+
+  /*
+    notifications
+  */
+  successBackground: "#e0f4f1",
+  successForeground: emerald,
+  errorBackground: "#ebd9db",
+  errorForeground: "#d0021b",
+  warningBackground: lightGold,
+  warningForeground: bearBrown
 };
