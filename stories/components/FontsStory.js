@@ -1,6 +1,6 @@
 import React from "react";
 import copy from "copy-to-clipboard";
-import { colors } from "../../src";
+import { colors, typography } from "../../src";
 import { unstyledButtonStyles } from "../styles";
 
 const fontStyles = {
@@ -21,7 +21,8 @@ const FontKey = ({ fontKey }) => (
       title={`Copy ${fontKey} to clipboard`}
       onClick={() => copy(fontKey)}
       style={{
-        ...unstyledButtonStyles
+        ...unstyledButtonStyles,
+        fontFamily: typography[fontKey]
       }}
     >
       ({fontKey})
@@ -33,20 +34,35 @@ const FontsStory = () => (
     <h1>Fonts</h1>
     <hr />
     <h2>Sans</h2>
-    <span className="sans" style={fontStyles}>
+    <span
+      style={{
+        ...fontStyles,
+        fontFamily: typography.sans
+      }}
+    >
       Circular Book <FontKey fontKey="sans" />
     </span>
-    <span className="sans-bold" style={fontStyles}>
+    <span
+      style={{
+        ...fontStyles,
+        fontFamily: typography.sansBold
+      }}
+    >
       Circular Bold <FontKey fontKey="sansBold" />
     </span>
     <hr />
     <h2>Serif</h2>
-    <span className="serif" style={fontStyles}>
+    <span
+      style={{
+        ...fontStyles,
+        fontFamily: typography.serif
+      }}
+    >
       Minion Pro <FontKey fontKey="serif" />
     </span>
     <hr />
     <h2>Mono</h2>
-    <span className="mono" style={fontStyles}>
+    <span style={{ ...fontStyles, fontFamily: typography.mono }}>
       Bitstream Vera Sans Mono <FontKey fontKey="mono" />
     </span>
   </div>
