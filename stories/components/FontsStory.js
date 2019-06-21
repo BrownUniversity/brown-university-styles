@@ -63,7 +63,7 @@ const FontsStory = () => (
     <hr />
     <h2>Mono</h2>
     <span style={{ ...fontStyles, fontFamily: typography.mono }}>
-      Bitstream Vera Sans <FontKey fontKey="mono" />
+      Bitstream Vera Sans Mono <FontKey fontKey="mono" />
     </span>
   </div>
 );
