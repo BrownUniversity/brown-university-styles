@@ -1,16 +1,10 @@
-/*! brown-university-styles v0.7.0 */
+/*! brown-university-styles v0.8.0 */
 @charset "UTF-8";
 
 @font-face {
   font-family: "Bitstream Vera Sans Mono";
   font-style: normal;
   src: url(bitstream-vera-sans-mono.3276a5efeb99130cfca212bc354be36d.woff) format("woff");
-}
-
-@font-face {
-  font-family: brown-icons;
-  font-style: normal;
-  src: url(brown-icons.7b3e919f5400cd97733af21735ca5f8a.woff) format("woff");
 }
 
 @font-face {
