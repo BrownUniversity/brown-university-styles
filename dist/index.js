@@ -1,4 +1,4 @@
-/*! brown-university-styles v0.8.0 */
+/*! brown-university-styles v0.8.1 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
