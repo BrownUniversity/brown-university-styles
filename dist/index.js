@@ -1,4 +1,4 @@
-/*! brown-university-styles v0.6.0 */
+/*! brown-university-styles v0.7.0 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -142,7 +142,8 @@ var breakpoints = {
   sm: 576,
   md: 768,
   lg: 992,
-  xl: 1200
+  xl: 1200,
+  xxl: 1370
 };
 
 /***/ }),
