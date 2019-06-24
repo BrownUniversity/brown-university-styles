@@ -1,52 +1,74 @@
-/*! brown-university-styles v0.8.1 */
+/*! brown-university-styles v0.9.0 */
 @charset "UTF-8";
 
 @font-face {
+  font-display: swap;
   font-family: "Bitstream Vera Sans Mono";
   font-style: normal;
   src: url(bitstream-vera-sans-mono.3276a5efeb99130cfca212bc354be36d.woff) format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Circular-Bold";
   font-style: normal;
   src: url(circular-bold.926416f00d9c1431f52d424135e15ead.woff) format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Circular-Bold";
   font-style: italic;
-  src: url(circular-bolditalic.0c2a5e57f1e42ec288d0a398bb48323f.woff) format("woff");
+  src: url(circular-bold-italic.0c2a5e57f1e42ec288d0a398bb48323f.woff) format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Circular-Book";
   font-style: normal;
   src: url(circular-book.2ac8bef002d92b00dd2c9efa1b9b28dc.woff) format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Circular-Book";
   font-style: italic;
-  src: url(circular-bookitalic.96286d950720539a92c9805b48ee469c.woff) format("woff");
+  src: url(circular-book-italic.96286d950720539a92c9805b48ee469c.woff) format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Circular-Medium";
   font-style: normal;
   src: url(circular-medium.5b4d06887f372350cc39fa4269024a5f.woff) format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Circular-Medium";
   font-style: italic;
-  src: url(circular-mediumitalic.82a2a90b2e26b7e50296f3a24735c710.woff) format("woff");
+  src: url(circular-medium-italic.82a2a90b2e26b7e50296f3a24735c710.woff) format("woff");
 }
 
 @font-face {
-  font-family: minion-pro;
+  font-display: swap;
+  font-family: "MinionPro";
   font-style: normal;
-  src: url(minion-pro.882822c68b3e5ff52e06a5fcdbe3fa8e.woff) format("woff");
+  src: url(minion-pro.29af7a60d468bc4f56fa5824ffa5e95b.woff) format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MinionPro";
+  font-weight: bold;
+  src: url(minion-pro-bold.9dd0e7f4bb06fefd66e09010de275d5c.woff) format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MinionPro";
+  font-style: italic;
+  src: url(minion-pro-italic.458aa100603f52b76df45b0cc3306f2f.woff) format("woff");
 }
 
 h1,
@@ -60,7 +82,7 @@ h6 {
 
 p,
 a {
-  font-family: minion-pro, "Times New Roman", serif;
+  font-family: MinionPro, "Times New Roman", serif;
 }
 
 code {
