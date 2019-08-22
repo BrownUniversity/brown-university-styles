@@ -2,81 +2,108 @@
 
 @font-face {
   font-display: swap;
-  font-family: "Bitstream Vera Sans Mono";
+  font-family: "CircularStd";
   font-style: normal;
-  src: url("./fonts/bitstream-vera-sans-mono.woff") format("woff");
+  font-weight: 400;
+  src: url("./fonts/circular-std-book.woff") format("woff");
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Circular-Bold";
-  font-style: normal;
-  src: url("./fonts/circular-bold.woff") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Circular-Bold";
+  font-family: "CircularStd";
   font-style: italic;
-  src: url("./fonts/circular-bold-italic.woff") format("woff");
+  font-weight: 400;
+  src: url("./fonts/circular-std-book-italic.woff") format("woff");
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Circular-Book";
+  font-family: "CircularStd";
   font-style: normal;
-  src: url("./fonts/circular-book.woff") format("woff");
+  font-weight: 500;
+  src: url("./fonts/circular-std-medium.woff") format("woff");
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Circular-Book";
+  font-family: "CircularStd";
   font-style: italic;
-  src: url("./fonts/circular-book-italic.woff") format("woff");
+  font-weight: 500;
+  src: url("./fonts/circular-std-medium-italic.woff") format("woff");
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Circular-Medium";
+  font-family: "CircularStd";
   font-style: normal;
-  src: url("./fonts/circular-medium.woff") format("woff");
+  font-weight: 700;
+  src: url("./fonts/circular-std-bold.woff") format("woff");
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Circular-Medium";
+  font-family: "CircularStd";
   font-style: italic;
-  src: url("./fonts/circular-medium-italic.woff") format("woff");
+  font-weight: 700;
+  src: local("./fonts/circular-std-bold-italic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStdBold";
+  font-style: normal;
+  src: url("./fonts/circular-std-bold.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStdBold";
+  font-style: italic;
+  src: url("./fonts/circular-std-bold-italic.woff") format("woff");
 }
 
 @font-face {
   font-display: swap;
   font-family: "MinionPro";
   font-style: normal;
-  src: url("./fonts/minion-pro.woff") format("woff");
+  font-weight: 400;
+  src: url("./fonts/minion-pro-regular.woff") format("woff");
 }
 
 @font-face {
   font-display: swap;
   font-family: "MinionPro";
-  font-weight: bold;
+  font-style: italic;
+  font-weight: 400;
+  src: url("./fonts/minion-pro-italic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MinionPro";
+  font-style: normal;
+  font-weight: 700;
   src: url("./fonts/minion-pro-bold.woff") format("woff");
 }
 
 @font-face {
   font-display: swap;
-  font-family: "MinionPro";
-  font-style: italic;
-  src: url("./fonts/minion-pro-italic.woff") format("woff");
+  font-family: "Bitstream Vera Sans Mono";
+  font-style: normal;
+  src: url("./fonts/bitstream-vera-sans-mono.woff") format("woff");
 }
 
+/*
+  typography styling
+*/
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: Circular-Bold, Circular-Book, Arial, Helvetica, sans-serif;
+  font-family: CircularStdBold, CircularStd, Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 
 p,
