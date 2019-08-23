@@ -11,7 +11,7 @@ const ParagraphsStory = () => (
         marginTop: 0
       }}
     >
-      Minion Pro
+      MinionPro Regular
     </p>
     <hr />
     <p>

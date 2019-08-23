@@ -3,68 +3,132 @@ import copy from "copy-to-clipboard";
 import { colors, typography } from "../../src";
 import { unstyledButtonStyles } from "../styles";
 
-const fontStyles = {
-  display: "block",
-  fontSize: "2rem",
-  marginBottom: 30
-};
-
-const FontKey = ({ fontKey }) => (
-  <span
-    style={{
-      color: colors.transparentBlack,
-      fontStyle: "italic"
-    }}
-  >
+const FontGroup = ({ name }) => (
+  <h2>
     <button
       type="button"
-      title={`Copy ${fontKey} to clipboard`}
-      onClick={() => copy(fontKey)}
+      title={`Copy ${name} to clipboard`}
+      onClick={() => copy(name)}
       style={{
-        ...unstyledButtonStyles,
-        fontFamily: typography[fontKey]
+        ...unstyledButtonStyles
       }}
     >
-      ({fontKey})
+      {name}
     </button>
-  </span>
+  </h2>
 );
+
+const Font = ({ name, note, styles }) => (
+  <div style={{ marginBottom: 30 }}>
+    <span
+      style={{
+        display: "block",
+        fontSize: "2rem",
+        ...styles
+      }}
+    >
+      {name}
+    </span>
+    {note && (
+      <small style={{ color: colors.gray, fontStyle: "italic" }}>{note}</small>
+    )}
+  </div>
+);
+
 const FontsStory = () => (
   <div style={{ padding: "0 15px 30px 15px" }}>
-    <h1>Fonts</h1>
-    <hr />
-    <h2>Sans</h2>
-    <span
+    <h1 style={{ marginBottom: 5 }}>Fonts</h1>
+    <p
       style={{
-        ...fontStyles,
-        fontFamily: typography.sans
+        color: colors.gray,
+        fontStyle: "italic",
+        marginTop: 0
       }}
     >
-      Circular Book <FontKey fontKey="sans" />
-    </span>
-    <span
-      style={{
-        ...fontStyles,
+      Click a heading to copy it to your clipboard. Variants marked with an
+      asterisk are not available on brown.edu.
+    </p>
+    <hr />
+    <FontGroup name="sans" />
+    <Font name="CircularStd Book" styles={{ fontFamily: typography.sans }} />
+    <Font
+      name="CircularStd Book Italic*"
+      styles={{ fontFamily: typography.sans, fontStyle: "italic" }}
+    />
+    <Font
+      name="CircularStd Medium"
+      styles={{ fontFamily: typography.sans, fontWeight: 500 }}
+    />
+    <Font
+      name="CircularStd Medium Italic*"
+      styles={{
+        fontFamily: typography.sans,
+        fontWeight: 500,
+        fontStyle: "italic"
+      }}
+    />
+    <Font
+      name="CircularStd Bold"
+      styles={{
+        fontFamily: typography.sans,
+        fontWeight: 700
+      }}
+    />
+    <Font
+      name="CircularStd Bold Italic*"
+      styles={{
+        fontFamily: typography.sans,
+        fontWeight: 700,
+        fontStyle: "italic"
+      }}
+    />
+    <hr />
+    <FontGroup name="sansBold" />
+    <Font
+      name="CircularStdBold*"
+      note="Alias for CircularStd Bold"
+      styles={{
         fontFamily: typography.sansBold
       }}
-    >
-      Circular Bold <FontKey fontKey="sansBold" />
-    </span>
+    />
+    <Font
+      name="CircularStdBold Italic*"
+      note="Alias for CircularStd Bold Italic"
+      styles={{
+        fontFamily: typography.sansBold,
+        fontStyle: "italic"
+      }}
+    />
     <hr />
-    <h2>Serif</h2>
-    <span
-      style={{
-        ...fontStyles,
+    <FontGroup name="serif" />
+    <Font
+      name="MinionPro Regular"
+      styles={{
         fontFamily: typography.serif
       }}
-    >
-      Minion Pro <FontKey fontKey="serif" />
-    </span>
+    />
+    <Font
+      name="MinionPro Italic"
+      styles={{
+        fontFamily: typography.serif,
+        fontStyle: "italic"
+      }}
+    />
+    <Font
+      name="MinionPro Bold"
+      styles={{
+        fontFamily: typography.serif,
+        fontWeight: 700
+      }}
+    />
     <hr />
-    <h2>Mono</h2>
-    <span style={{ ...fontStyles, fontFamily: typography.mono }}>
-      Bitstream Vera Sans Mono <FontKey fontKey="mono" />
-    </span>
+    <FontGroup name="mono" />
+    <Font
+      name="Bitstream Vera Sans Mono*"
+      styles={{
+        fontFamily: typography.mono
+      }}
+    />
   </div>
 );
 

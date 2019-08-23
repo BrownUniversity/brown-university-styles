@@ -11,7 +11,7 @@ const HeadingsStory = () => (
         marginTop: 0
       }}
     >
-      Circular Bold
+      CircularStd Bold
     </p>
     <hr />
     <h1>Heading 1</h1>
