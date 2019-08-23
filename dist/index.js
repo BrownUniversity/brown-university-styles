@@ -1,4 +1,4 @@
-/*! brown-university-styles v0.9.0 */
+/*! brown-university-styles v0.10.0 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -247,8 +247,8 @@ var lightGold = "#fef1cd";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-var sans = "Circular-Book, Arial, Helvetica, sans-serif";
-var sansBold = "Circular-Bold, Circular-Book, Arial, Helvetica, sans-serif";
+var sans = "CircularStd, Arial, Helvetica, sans-serif";
+var sansBold = "CircularStdBold, CircularStd, Arial, Helvetica, sans-serif";
 var serif = 'MinionPro, "Times New Roman", serif';
 var mono = '"Bitstream Vera Sans Mono", Menlo, Monaco, Consolas, Courier, monospace';
 /* harmony default export */ __webpack_exports__["default"] = ({
