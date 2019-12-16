@@ -3,6 +3,7 @@ const webRed = "#C00404";
 const gold = "#FFC72C";
 const gray = "#98A4AE";
 const emerald = "#00B398";
+const darkEmerald = "#008672";
 const taupe = "#B7B09C";
 const bearBrown = "#8b572a";
 const lightGold = "#fef1cd";
@@ -19,6 +20,7 @@ export default {
   // secondary
   skyBlue: "#59CBE8",
   emerald,
+  darkEmerald,
   navy: "#003C71",
   taupe,
 
