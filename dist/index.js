@@ -1,4 +1,4 @@
-/*! brown-university-styles v0.10.0 */
+/*! brown-university-styles v0.11.0 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -171,6 +171,7 @@ var webRed = "#C00404";
 var gold = "#FFC72C";
 var gray = "#98A4AE";
 var emerald = "#00B398";
+var darkEmerald = "#008672";
 var taupe = "#B7B09C";
 var bearBrown = "#8b572a";
 var lightGold = "#fef1cd";
@@ -186,6 +187,7 @@ var lightGold = "#fef1cd";
   // secondary
   skyBlue: "#59CBE8",
   emerald: emerald,
+  darkEmerald: darkEmerald,
   navy: "#003C71",
   taupe: taupe,
 
