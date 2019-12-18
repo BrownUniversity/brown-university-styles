@@ -1,4 +1,4 @@
-/*! brown-university-styles v0.11.0 */
+/*! brown-university-styles v0.12.0 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -140,7 +140,7 @@ __webpack_require__.r(__webpack_exports__);
 var baseFontSizePx = 16;
 var breakpoints = {
   sm: 576,
-  md: 768,
+  md: 740,
   lg: 992,
   xl: 1200,
   xxl: 1370

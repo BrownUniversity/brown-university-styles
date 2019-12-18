@@ -10,10 +10,10 @@ Colors, typography and other style utilities for building React-based applicatio
 
 ```sh
 // npm
-npm i git+https://bitbucket.brown.edu/scm/react/brown-university-styles.git#semver:^0.11
+npm i git+https://bitbucket.brown.edu/scm/react/brown-university-styles.git#semver:^0.12
 
 // yarn
-yarn add git+https://bitbucket.brown.edu/scm/react/brown-university-styles.git#^0.11
+yarn add git+https://bitbucket.brown.edu/scm/react/brown-university-styles.git#^0.12
 ```
 
 _Ensure you're on the network and that your SSH key has been added to the ssh-agent (`ssh-add ~/.ssh/id_rsa`) and uploaded to [bitbucket.brown.edu](https://bitbucket.brown.edu/plugins/servlet/ssh/account/keys)._
