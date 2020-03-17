@@ -10,13 +10,11 @@ Colors, typography and other style utilities for building React-based applicatio
 
 ```sh
 // npm
-npm i git+https://github.com/brownuniversity/eslint-config-brown.git#semver:^0.12
+npm i git+https://github.com/BrownUniversity/brown-university-styles.git
 
 // yarn
-yarn add git+https://github.com/brownuniversity/eslint-config-brown.git#semver:^0.12
+yarn add git+https://github.com/BrownUniversity/brown-university-styles.git
 ```
-
-_Ensure you're on the network and that your SSH key has been added to the ssh-agent (`ssh-add ~/.ssh/id_rsa`) and uploaded to [bitbucket.brown.edu](https://bitbucket.brown.edu/plugins/servlet/ssh/account/keys)._
 
 ### 2. Import styles
 
