@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStd";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/circular-std-book.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStd";
+  font-style: italic;
+  font-weight: 400;
+  src: url("./fonts/circular-std-book-italic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStd";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/circular-std-medium.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStd";
+  font-style: italic;
+  font-weight: 500;
+  src: url("./fonts/circular-std-medium-italic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStd";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/circular-std-bold.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStd";
+  font-style: italic;
+  font-weight: 700;
+  src: local("./fonts/circular-std-bold-italic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStdBold";
+  font-style: normal;
+  src: url("./fonts/circular-std-bold.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStdBold";
+  font-style: italic;
+  src: url("./fonts/circular-std-bold-italic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MinionPro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/minion-pro-regular.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MinionPro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("./fonts/minion-pro-italic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MinionPro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/minion-pro-bold.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Bitstream Vera Sans Mono";
+  font-style: normal;
+  src: url("./fonts/bitstream-vera-sans-mono.woff") format("woff");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: CircularStdBold, CircularStd, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+p,
+a {
+  font-family: MinionPro, "Times New Roman", serif;
+}
+
+code {
+  font-family: "Bitstream Vera Sans Mono", Menlo, Monaco, Consolas, Courier,
+    monospace;
+}
