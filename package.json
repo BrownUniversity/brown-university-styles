@@ -12,6 +12,8 @@
     "format:check": "npm run prettier -- --list-different",
     "format:fix": "npm run prettier -- --write",
     "validate": "npm-run-all lint format:check",
+    "prebuild:docs": "rimraf docs",
+    "build:docs": "build-storybook -o docs",
     "prebuild": "rimraf dist && npm run validate",
     "build": "webpack",
     "start": "start-storybook -p 8080"
