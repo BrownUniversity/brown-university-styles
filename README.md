@@ -36,7 +36,7 @@ _This only needs to be done once (via CSS or JavaScript). Remember to configure 
 
 ## Documentation
 
-[View on VPN](https://design.cis.brown.edu/brown-university-styles/)
+The documentation is available https://brownuniversity.github.io/brown-university-styles/.
 
 ---
 
