@@ -21,7 +21,7 @@
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
-    "@storybook/addon-a11y": "^6.0.28",
+    "@storybook/addon-a11y": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addons": "^6.0.28",
     "@storybook/react": "^6.5.13",
