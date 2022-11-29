@@ -5,12 +5,11 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { version } = require("./package.json");
 
 module.exports = {
-  mode: "none",
-  entry: path.join(__dirname, "./src/index.js"),
+  mode: "production",
   output: {
     filename: "index.js",
-    path: path.resolve(__dirname, "./dist"),
-    libraryTarget: "umd"
+    libraryTarget: "umd",
+    assetModuleFilename: "[name].[contenthash][ext]"
   },
   module: {
     rules: [
@@ -27,7 +26,7 @@ module.exports = {
       },
       {
         test: /\.woff$/,
-        use: "file-loader?name=[name].[hash].[ext]"
+        type: "asset/resource",
       }
     ]
   },
