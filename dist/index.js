@@ -190,6 +190,7 @@ var lightGold = "#fef1cd";
   darkEmerald: darkEmerald,
   navy: "#003C71",
   taupe: taupe,
+
   /*
     fastspot visual styles
   */
@@ -199,6 +200,7 @@ var lightGold = "#fef1cd";
   yellow: gold,
   // secondary`
   beige: taupe,
+
   /*
     brown university theme
   */
@@ -207,15 +209,18 @@ var lightGold = "#fef1cd";
   sand: "#CCC6B8",
   lightBrown: "#A79A94",
   mediumBrown: "#745D54",
+
   /*
     other themes
   */
   // used by athletics
   bearBrown: bearBrown,
+
   /*
     accent
   */
   lightGold: lightGold,
+
   /*
     grayscale
   */
@@ -226,6 +231,7 @@ var lightGold = "#fef1cd";
   darkGray: "#3C3C3C",
   black: "#000000",
   transparentBlack: "rgba(0, 0, 0, 0.15)",
+
   /*
     notifications
   */
