@@ -1,5 +1,5 @@
 {
-  "extends": ["brown", "brown/prettier"],
+  "extends": ["brown", "brown/typescript", "brown/prettier"],
   "env": {
     "browser": true
   },
@@ -11,7 +11,8 @@
     {
       "files": ["stories/**/*.js"],
       "rules": {
-        "react/function-component-definition": "off"
+        "react/function-component-definition": "off",
+        "import/extensions": ["error", { "js": "never" }]
       }
     }
   ]
