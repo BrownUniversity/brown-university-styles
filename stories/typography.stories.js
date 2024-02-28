@@ -1,26 +1,26 @@
-import React from 'react';
-import FontsStory from './components/FontsStory';
-import HeadingsStory from './components/HeadingsStory';
-import ParagraphsStory from './components/ParagraphsStory';
+import React from "react";
+import FontsStory from "./components/FontsStory";
+import HeadingsStory from "./components/HeadingsStory";
+import ParagraphsStory from "./components/ParagraphsStory";
 
 export default {
-  title: 'typography',
+  title: "typography",
 };
 
 export const Fonts = () => <FontsStory />;
 
 Fonts.story = {
-  name: 'fonts',
+  name: "fonts",
 };
 
 export const Headings = () => <HeadingsStory />;
 
 Headings.story = {
-  name: 'headings',
+  name: "headings",
 };
 
 export const Paragraphs = () => <ParagraphsStory />;
 
 Paragraphs.story = {
-  name: 'paragraphs',
+  name: "paragraphs",
 };

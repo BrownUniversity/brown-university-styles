@@ -32,7 +32,7 @@ const ColorName = ({ name, note }) => (
       title={`Copy ${name} to clipboard`}
       onClick={() => copy(name)}
       style={{
-        ...unstyledButtonStyles
+        ...unstyledButtonStyles,
       }}
     >
       {name}
@@ -42,7 +42,7 @@ const ColorName = ({ name, note }) => (
         style={{
           color: colors.transparentBlack,
           fontSize: "1.25rem",
-          fontStyle: "italic"
+          fontStyle: "italic",
         }}
       >
         ({note})
@@ -64,7 +64,7 @@ const ColorBlock = ({ name }) => {
         style={{
           color: colors.gray,
           margin: "5px 0",
-          ...unstyledButtonStyles
+          ...unstyledButtonStyles,
         }}
       >
         {value}
@@ -87,7 +87,7 @@ const ColorPaletteStory = () => (
       style={{
         color: colors.gray,
         fontStyle: "italic",
-        marginTop: 0
+        marginTop: 0,
       }}
     >
       Click a name or a value to copy it to your clipboard.

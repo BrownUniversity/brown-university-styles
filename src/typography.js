@@ -8,5 +8,5 @@ export default {
   sans,
   sansBold,
   serif,
-  mono
+  mono,
 };

@@ -10,7 +10,7 @@ const FontGroup = ({ name }) => (
       title={`Copy ${name} to clipboard`}
       onClick={() => copy(name)}
       style={{
-        ...unstyledButtonStyles
+        ...unstyledButtonStyles,
       }}
     >
       {name}
@@ -24,7 +24,7 @@ const Font = ({ name, note, styles }) => (
       style={{
         display: "block",
         fontSize: "2rem",
-        ...styles
+        ...styles,
       }}
     >
       {name}
@@ -42,7 +42,7 @@ const FontsStory = () => (
       style={{
         color: colors.gray,
         fontStyle: "italic",
-        marginTop: 0
+        marginTop: 0,
       }}
     >
       Click a heading to copy it to your clipboard. Variants marked with an
@@ -64,14 +64,14 @@ const FontsStory = () => (
       styles={{
         fontFamily: typography.sans,
         fontWeight: 500,
-        fontStyle: "italic"
+        fontStyle: "italic",
       }}
     />
     <Font
       name="CircularStd Bold"
       styles={{
         fontFamily: typography.sans,
-        fontWeight: 700
+        fontWeight: 700,
       }}
     />
     <Font
@@ -79,7 +79,7 @@ const FontsStory = () => (
       styles={{
         fontFamily: typography.sans,
         fontWeight: 700,
-        fontStyle: "italic"
+        fontStyle: "italic",
       }}
     />
     <hr />
@@ -88,7 +88,7 @@ const FontsStory = () => (
       name="CircularStdBold*"
       note="Alias for CircularStd Bold"
       styles={{
-        fontFamily: typography.sansBold
+        fontFamily: typography.sansBold,
       }}
     />
     <Font
@@ -96,7 +96,7 @@ const FontsStory = () => (
       note="Alias for CircularStd Bold Italic"
       styles={{
         fontFamily: typography.sansBold,
-        fontStyle: "italic"
+        fontStyle: "italic",
       }}
     />
     <hr />
@@ -104,21 +104,21 @@ const FontsStory = () => (
     <Font
       name="MinionPro Regular"
       styles={{
-        fontFamily: typography.serif
+        fontFamily: typography.serif,
       }}
     />
     <Font
       name="MinionPro Italic"
       styles={{
         fontFamily: typography.serif,
-        fontStyle: "italic"
+        fontStyle: "italic",
       }}
     />
     <Font
       name="MinionPro Bold"
       styles={{
         fontFamily: typography.serif,
-        fontWeight: 700
+        fontWeight: 700,
       }}
     />
     <hr />
@@ -126,7 +126,7 @@ const FontsStory = () => (
     <Font
       name="Bitstream Vera Sans Mono*"
       styles={{
-        fontFamily: typography.mono
+        fontFamily: typography.mono,
       }}
     />
   </div>

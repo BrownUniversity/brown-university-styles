@@ -5,5 +5,5 @@ export const unstyledButtonStyles = {
   cursor: "pointer",
   fontSize: "inherit",
   fontWeight: "inherit",
-  padding: 0
+  padding: 0,
 };

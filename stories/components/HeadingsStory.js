@@ -8,7 +8,7 @@ const HeadingsStory = () => (
       style={{
         color: colors.gray,
         fontStyle: "italic",
-        marginTop: 0
+        marginTop: 0,
       }}
     >
       CircularStd Bold

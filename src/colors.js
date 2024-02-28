@@ -71,5 +71,5 @@ export default {
   errorBackground: "#ebd9db",
   errorForeground: "#d0021b",
   warningBackground: lightGold,
-  warningForeground: bearBrown
+  warningForeground: bearBrown,
 };

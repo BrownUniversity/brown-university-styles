@@ -1,12 +1,12 @@
-import React from 'react';
-import ColorPaletteStory from './components/ColorPaletteStory';
+import React from "react";
+import ColorPaletteStory from "./components/ColorPaletteStory";
 
 export default {
-  title: 'colors',
+  title: "colors",
 };
 
 export const ColorPalette = () => <ColorPaletteStory />;
 
 ColorPalette.story = {
-  name: 'color palette',
+  name: "color palette",
 };
