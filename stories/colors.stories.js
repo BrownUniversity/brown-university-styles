@@ -1,5 +1,12 @@
 import React from "react";
-import { storiesOf } from "@storybook/react";
 import ColorPaletteStory from "./components/ColorPaletteStory";
 
-storiesOf("colors", module).add("color palette", () => <ColorPaletteStory />);
+export default {
+  title: "colors",
+};
+
+export const ColorPalette = () => <ColorPaletteStory />;
+
+ColorPalette.story = {
+  name: "color palette",
+};

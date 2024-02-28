@@ -3,7 +3,7 @@ import { breakpoints } from "../../src";
 
 const getScreenWidth = () => window.innerWidth;
 
-const getMedia = screenWidth => {
+const getMedia = (screenWidth) => {
   const breakpointVals = Object.values(breakpoints);
   let media = "xs";
 

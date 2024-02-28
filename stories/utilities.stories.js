@@ -1,5 +1,12 @@
 import React from "react";
-import { storiesOf } from "@storybook/react";
 import BreakpointsStory from "./components/BreakpointsStory";
 
-storiesOf("utilities", module).add("breakpoints", () => <BreakpointsStory />);
+export default {
+  title: "utilities",
+};
+
+export const Breakpoints = () => <BreakpointsStory />;
+
+Breakpoints.story = {
+  name: "breakpoints",
+};
