@@ -2,7 +2,7 @@
   "name": "brown-university-styles",
   "description": "Colors, typography and other style utilities for building React-based applications at Brown University.",
   "author": "Colin Cummings <colin_cummings@brown.edu>",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "private": true,
   "homepage": "https://github.com/BrownUniversity/brown-university-styles.git",
   "main": "dist/index.js",

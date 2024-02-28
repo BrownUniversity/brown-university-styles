@@ -10,10 +10,10 @@ Colors, typography and other style utilities for building React-based applicatio
 
 ```sh
 // npm
-npm i git+https://github.com/BrownUniversity/brown-university-styles.git
+npm i BrownUniversity/brown-university-styles#semver:^0.14.0
 
 // yarn
-yarn add git+https://github.com/BrownUniversity/brown-university-styles.git
+yarn add BrownUniversity/brown-university-styles#^0.14.0
 ```
 
 ### 2. Import styles
