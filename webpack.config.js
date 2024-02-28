@@ -1,6 +1,5 @@
 const webpack = require("webpack");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-
 const { version } = require("./package.json");
 
 module.exports = {
@@ -13,7 +12,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.[jt]s$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
@@ -29,7 +28,9 @@ module.exports = {
       },
     ],
   },
-
+  resolve: {
+    extensions: [".ts", "..."],
+  },
   plugins: [
     new webpack.BannerPlugin(`brown-university-styles v${version}`),
     new MiniCssExtractPlugin({
