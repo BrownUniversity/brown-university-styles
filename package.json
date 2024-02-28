@@ -13,18 +13,19 @@
     "format:fix": "npm run prettier -- --write",
     "validate": "npm-run-all lint format:check",
     "prebuild:docs": "rimraf docs",
-    "build:docs": "build-storybook -o docs",
+    "build:docs": "storybook build -o docs",
     "prebuild": "rimraf dist && npm run validate",
     "build": "webpack",
-    "start": "start-storybook -p 8080"
+    "start": "storybook dev -p 8080"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
-    "@storybook/addon-a11y": "^6.5.13",
-    "@storybook/addon-essentials": "^6.5.13",
-    "@storybook/addons": "^6.0.28",
-    "@storybook/react": "^6.5.13",
+    "@storybook/addon-a11y": "^7.6.17",
+    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/addons": "^7.6.17",
+    "@storybook/react": "^7.6.17",
+    "@storybook/react-webpack5": "^7.6.17",
     "babel-loader": "^8.3.0",
     "copy-to-clipboard": "^3.0.8",
     "css-loader": "^6.10.0",
@@ -36,6 +37,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "rimraf": "^2.6.3",
+    "storybook": "^7.6.17",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.1.4"
   }

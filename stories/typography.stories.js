@@ -1,10 +1,26 @@
-import React from "react";
-import { storiesOf } from "@storybook/react";
-import FontsStory from "./components/FontsStory";
-import HeadingsStory from "./components/HeadingsStory";
-import ParagraphsStory from "./components/ParagraphsStory";
+import React from 'react';
+import FontsStory from './components/FontsStory';
+import HeadingsStory from './components/HeadingsStory';
+import ParagraphsStory from './components/ParagraphsStory';
 
-storiesOf("typography", module)
-  .add("fonts", () => <FontsStory />)
-  .add("headings", () => <HeadingsStory />)
-  .add("paragraphs", () => <ParagraphsStory />);
+export default {
+  title: 'typography',
+};
+
+export const Fonts = () => <FontsStory />;
+
+Fonts.story = {
+  name: 'fonts',
+};
+
+export const Headings = () => <HeadingsStory />;
+
+Headings.story = {
+  name: 'headings',
+};
+
+export const Paragraphs = () => <ParagraphsStory />;
+
+Paragraphs.story = {
+  name: 'paragraphs',
+};
