@@ -41,7 +41,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "rimraf": "^2.6.3",
-    "storybook": "^7.6.17",
+    "storybook": "^7.6.21",
     "typescript": "^5.3.3",
     "typescript-eslint": "^7.1.0",
     "webpack": "^5.94.0",
